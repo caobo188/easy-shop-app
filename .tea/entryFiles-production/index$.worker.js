@@ -138,8 +138,9 @@ require('./config$');
 require('./importScripts$');
 function success() {
 require('../..//app');
-require('../../components/add-button/add-button');
-require('../../pages/todos/todos');
-require('../../pages/add-todo/add-todo');
+require('../../pages/index/index');
+require('../../pages/cate/cate');
+require('../../pages/mine/mine');
+require('../../pages/map/map');
 }
 self.bootstrapApp ? self.bootstrapApp({ success }) : success();
