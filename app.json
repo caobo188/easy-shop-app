@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cate/cate",    
+    "pages/mine/mine",
+    "pages/map/map"
+  ],
+  "window": {
+    "defaultTitle": "易购商城",
+    "titleBarColor": "#323239"
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "name": "分类"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "name": "我的"
+      }
+    ]
+  }
+}

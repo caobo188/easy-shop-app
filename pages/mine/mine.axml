@@ -1,0 +1,8 @@
+<view class="page-add-todo">
+
+  <view class="user">
+    <image class="avatar" src="{{user.avatar || '../../assets/logo.png'}}" background-size="cover"></image>
+    <view class="nickname">{{user.nickName && user.nickName + '\'s' || 'My'}} Todo List</view>
+  </view>
+  
+</view>
